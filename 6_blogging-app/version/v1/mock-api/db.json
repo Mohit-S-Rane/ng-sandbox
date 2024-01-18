@@ -1,0 +1,39 @@
+{
+  "blogs": [
+    {
+      "author": "charan",
+      "title": "Blog 1",
+      "content": "<h1>asdfja;dskf</h1><div>asdlfjkf as</div><div>df</div><div>dsaf</div><div>ad</div><div>sfd<b>lskdajflkdsjf</b></div><div><b><br></b></div>",
+      "comments": [],
+      "id": 1
+    },
+    {
+      "author": "charan",
+      "title": "Blog 2",
+      "content": "asdfasjf jdslf jdslkf jldskajf kldsjfl ksjfl aksdf kasdlf jdsakf jlkdsfj lkasdjf lskdjf lsdkjfldsjflds jfakj dlskfj asdlkfsakl lds",
+      "comments": [
+        {
+          "username": "charan",
+          "comment": "first comment"
+        },
+        {
+          "username": "john",
+          "comment": "amazing!!!"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "author": "charan",
+      "title": "Angular Introduction",
+      "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum massa et scelerisque elementum. Vestibulum volutpat enim quis suscipit congue. Phasellus suscipit cursus sem id gravida. Integer leo nulla, ornare sed vestibulum ac, vestibulum id dui. Etiam mollis, lectus ut tincidunt sollicitudin, quam ante vulputate felis, eget convallis tortor sapien a urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras pharetra imperdiet urna a hendrerit. Etiam iaculis turpis et odio aliquam, a imperdiet diam rutrum. Donec quam felis, gravida eget nunc id, lacinia mollis dolor. Etiam vestibulum ante at velit convallis pharetra. Nulla quam lectus, luctus eget nisi eu, lacinia auctor ligula. Aenean fringilla dignissim faucibus. Cras imperdiet nec purus eget auctor. Fusce pellentesque mi vel fermentum venenatis. In viverra libero eros, eget aliquam augue vehicula luctus. Ut faucibus nulla quis elit aliquam eleifend.</p><p>Pellentesque porta leo ante, ut rhoncus nibh faucibus quis. Sed sit amet blandit tortor. Pellentesque sit amet ultricies diam. Nulla finibus lectus vel dui suscipit, aliquam lacinia ipsum venenatis. Fusce nec purus sed ipsum finibus ullamcorper. Integer luctus diam ultrices condimentum ullamcorper. Suspendisse tempor eget metus non sollicitudin. Vivamus lacinia mauris ornare neque pharetra, at finibus massa feugiat. Donec finibus magna id ipsum faucibus laoreet non sed justo. Fusce congue quam vitae orci luctus, sed laoreet augue varius. Phasellus sagittis purus et tempor semper. Maecenas porta ultrices nibh nec venenatis.</p><p>Integer laoreet, enim quis scelerisque eleifend, ipsum tortor porttitor magna, a mattis nunc arcu pellentesque magna. Aenean et condimentum est, eu maximus lorem. Maecenas id neque urna. Cras mollis bibendum ultricies. Morbi in risus tristique, hendrerit turpis vitae, vulputate lorem. Integer vulputate semper enim, sit amet tincidunt nulla molestie sed. Integer faucibus magna et accumsan convallis. In elementum iaculis aliquet. Praesent sagittis, justo sit amet molestie hendrerit, nisl lectus fermentum turpis, eu consequat eros eros vel neque.</p><div><br></div>",
+      "comments": [
+        {
+          "username": "jack",
+          "comment": "amazing work!!!"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
