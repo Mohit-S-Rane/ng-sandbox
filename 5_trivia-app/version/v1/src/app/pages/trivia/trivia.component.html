@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="content-wrapper">
+    <div class="top-container">
+      <div class="score-container">
+        Score: {{score}}
+      </div>
+      <div class="timer-container">
+        Time Left: {{countdown}}
+      </div>
+    </div>
+
+    <div class="question-container" *ngIf="triviaService.questionsData.length != 0">
+      <div class="question" [innerHtml]="triviaService.questionsData[questionIndex].question">
+        
+      </div>
+      <button (click)="selectAnswer(option)" 
+      [class.correct-option]="(userAnswer == option && userAnswer == triviaService.questionsData[questionIndex].correct_answer) || (userAnswer != '' && userAnswer != option && option == triviaService.questionsData[questionIndex].correct_answer) || (userAnswer == '' && countdown == 0 && option == triviaService.questionsData[questionIndex].correct_answer)"
+      [class.wrong-option]="userAnswer == option && userAnswer != triviaService.questionsData[questionIndex].correct_answer"
+      *ngFor="let option of triviaService.questionsData[questionIndex].incorrect_answers" class="option" mat-button [innerHtml]="option"></button>
+    </div>
+  </div>
+</div>
